@@ -1,0 +1,138 @@
+html,
+body {
+    font-family: Roboto, 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    background-color: #1F2937;
+    padding: 1em 5em;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 1em 0;
+    padding: 0;
+}
+
+.header-logo {
+    flex: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro-section {
+    display: flex;
+    align-items: center;
+    padding: 3em 5em;
+    background-color: #1F2937;
+    gap: 1em;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.awesome-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    align-self: flex-start;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5em 2em;
+}
+
+.image-div {
+    align-self: stretch;
+    background-color: lightgray;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+.info-container {
+    background-color: white;
+    padding: 3em 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.info-container h1 {
+    text-align: center;
+}
+
+.info-main-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    border: solid #3882F6 2px;
+    border-radius: 10px;
+}
+
+.card-div {
+    width: 100px;
+    text-align: center;
+}
+
+.quote-section {
+    padding: 3em 5em;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40em;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-sub-text {
+    text-align: right;
+    font-weight: bold;
+}
+
+.sign-up-section {
+    padding: 3em 5em;
+}

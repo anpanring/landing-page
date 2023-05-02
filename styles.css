@@ -36,6 +36,7 @@ p {
 .intro-section {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 3em 5em;
     background-color: #1F2937;
     gap: 1em;
